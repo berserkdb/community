@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["type:feature", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for BerserkDB? We'd love to hear it.
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: What problem are you trying to solve? Why is this important to you?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: How do you envision this working?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any workarounds or alternative approaches you've tried or considered.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of BerserkDB does this relate to?
+      options:
+        - Engine
+        - Query Service
+        - Meta Service
+        - Ingest / Agent
+        - CLI
+        - UI
+        - Storage
+        - Infrastructure
+        - Other / Unknown
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+title: "[Help] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about using BerserkDB. The community and maintainers are here to help.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What You've Tried
+      description: Any steps, docs, or workarounds you've already attempted.
+    validations:
+      required: false

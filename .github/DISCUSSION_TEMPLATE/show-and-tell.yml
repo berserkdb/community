@@ -1,0 +1,23 @@
+title: "[Show] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share something you've built with BerserkDB! Integrations, dashboards, tools — we want to see it.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What You Built
+      description: A brief summary of your project or integration.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Links, screenshots, code snippets, or anything else you'd like to share.
+    validations:
+      required: false
