@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Have an idea for BerserkDB? We'd love to hear it.
+        Have an idea for Berserk? We'd love to hear it.
 
   - type: textarea
     id: use-case
@@ -35,7 +35,7 @@ body:
     id: component
     attributes:
       label: Component
-      description: Which part of BerserkDB does this relate to?
+      description: Which part of Berserk does this relate to?
       options:
         - Engine
         - Query Service

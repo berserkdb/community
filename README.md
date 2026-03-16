@@ -1,6 +1,6 @@
-# BerserkDB Community
+# Berserk Community
 
-Welcome to the BerserkDB community hub. This repository hosts discussions, issue tracking, and community resources for BerserkDB.
+Welcome to the Berserk community hub. This repository hosts discussions, issue tracking, and community resources for Berserk.
 
 ## Getting Help
 
