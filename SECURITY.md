@@ -6,7 +6,7 @@ If you discover a security vulnerability in Berserk, please report it responsibl
 
 **Do not open a public issue.**
 
-Instead, email **security@berserkdb.com** with:
+Instead, email **security@bzrk.dev** with:
 
 - A description of the vulnerability
 - Steps to reproduce
